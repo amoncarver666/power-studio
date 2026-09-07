@@ -1,18 +1,18 @@
 # Dependencies
 node_modules/
-package-lock.json
-yarn.lock
+npm-debug.log
+yarn-error.log
 
-# Environment
-.env
-.env.local
-.env.*.local
-
-# Build
+# Build output
 dist/
 build/
 .next/
 out/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
 
 # IDE
 .vscode/
@@ -25,29 +25,22 @@ out/
 # Logs
 logs/
 *.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
 
-# Temp files
-tmp/
+# Temporary files
+uploads/
 temp/
-*.tmp
+tmp/
+.cache/
 
-# Audio files (large)
-*.wav
-*.mp3
-*.flac
-*.aac
-*.m4a
+# OS files
+.DS_Store
+Thumbs.db
 
-# MIDI files
-*.mid
-*.midi
+# Testing
+.coverage/
+.nyc_output/
+coverage/
 
-# DAW files
-*.dwp
-*.flp
-*.als
-*.cpr
-*.rpp
+# Development
+.vite/
+.turbo/
