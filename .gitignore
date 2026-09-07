@@ -1,0 +1,53 @@
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Build
+dist/
+build/
+.next/
+out/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Temp files
+tmp/
+temp/
+*.tmp
+
+# Audio files (large)
+*.wav
+*.mp3
+*.flac
+*.aac
+*.m4a
+
+# MIDI files
+*.mid
+*.midi
+
+# DAW files
+*.dwp
+*.flp
+*.als
+*.cpr
+*.rpp
